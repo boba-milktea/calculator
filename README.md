@@ -29,7 +29,7 @@
 
 ## Screenshots
 
-![calculator](.)
+![calculator](./planning/screenshot.png)
 
 ## Technologies
 
@@ -47,11 +47,20 @@
 ## Code Examples
 
 ```js
-
-```
-
-```css
-
+if (btnValue === '=') {
+  // replace the symbols to arithmetic operators
+  result = result.replace(/x/g, '*').replace(/÷/g, '/').replace(/=/g, '');
+  // use try, catch block to catch any errors.
+  try {
+    result = eval(result).toString();
+    result = fixDecimals(result);
+  } catch (err) {
+    result = 'ERROR';
+  }
+  display.innerText = result;
+  resultIsDisplayed = true;
+  return;
+}
 ```
 
 ## Features
