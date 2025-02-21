@@ -15,7 +15,7 @@
   "rules": {
     "no-console": "off",
     "no-alert": 0,
-    "operator-linebreak": ["error", "after"],
+    "linebreak-style": ["error", "unix"],
     "no-var": 1,
     "prefer-const": 1,
     "no-extra-parens": 1,
