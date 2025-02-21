@@ -10,6 +10,6 @@
 
 > A basic wireframe represents the calculator layout with a display at the top and buttons arranged in a grid.
 
-### Link to wireframe:
+### Link to wireframe
 
 ![View Wireframe](./calculator_wireframe.png)
