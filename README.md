@@ -1,6 +1,7 @@
 # elementary-calculator
 
-> A simple and interactive calculator built using HTML, CSS, and JavaScript's `eval()` function.
+> A simple and interactive calculator built using HTML, CSS, and JavaScript's
+> `eval()` function.
 
 ## Table of contents
 
@@ -22,7 +23,9 @@
 
 ## General info
 
-> This calculator is developed using **HTML5**, **CSS3**, and **JavaScript**. It supports basic arithmetic operations and provides real-time results using the `eval()` function.
+> This calculator is developed using **HTML5**, **CSS3**, and **JavaScript**. It
+> supports basic arithmetic operations and provides real-time results using the
+> `eval()` function.
 
 ## Screenshots
 

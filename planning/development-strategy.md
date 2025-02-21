@@ -1,6 +1,7 @@
 # Elementary Calculator
 
-This document outlines the strategy for developing the **Elementary Calculator**, focusing on practicing DOM manipulation with JavaScript.
+This document outlines the strategy for developing the **Elementary Calculator**,
+focusing on practicing DOM manipulation with JavaScript.
 
 ---
 
@@ -16,7 +17,7 @@ This document outlines the strategy for developing the **Elementary Calculator**
 
 This feature will be developed in the `calculator-structure` branch.
 
-#### JavaScript
+#### JavaScript for dynamic elements
 
 - Dynamically create all the calculator elements using JavaScript:
   - A display area for showing input and results
@@ -34,9 +35,9 @@ This feature will be developed in the `calculator-structure` branch.
 
 ### Calculator Logic
 
-This feature will be developed in the `calculator-interactions` branch.
+This feature will be developed in the `calculator-logic` branch.
 
-#### JavaScript
+#### JavaScript for logic
 
 - Add click event listeners to the buttons
 - Use the `eval()` function to perform calculations
