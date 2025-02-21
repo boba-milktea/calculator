@@ -2,16 +2,14 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
+> The **Elementary Calculator** is designed with simplicity and functionality in mind. It features a clear display screen and buttons for basic arithmetic operations. The layout is responsive and works on both desktop and mobile devices.
 
 ---
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+> A basic wireframe represents the calculator layout with a display at the top and buttons arranged in a grid.
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+### Link to wireframe:
+
+![View Wireframe](./calculator_wireframe.png)
