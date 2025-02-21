@@ -3,7 +3,6 @@
   "parserOptions": {
     "sourceType": "module"
   },
-  "linebreak-style": ["error", "windows"],
   "env": {
     "browser": true
   },
@@ -15,7 +14,7 @@
   "rules": {
     "no-console": "off",
     "no-alert": 0,
-    "operator-linebreak": ["error", "after"],
+    "linebreak-style": ["error", "windows"], // Keep this only here
     "no-var": 1,
     "prefer-const": 1,
     "no-extra-parens": 1,
@@ -53,11 +52,8 @@
       }
     ],
     "camelcase": [2, { "properties": "never" }],
-
     "prefer-arrow/prefer-arrow-functions": ["warn"],
-
     "sonarjs/prefer-immediate-return": 0,
-
     "jsdoc/check-alignment": 1,
     "jsdoc/check-indentation": 1,
     "jsdoc/check-line-alignment": 1,
@@ -86,7 +82,6 @@
     "jsdoc/require-yields": 1,
     "jsdoc/require-yields-check": 1,
     "jsdoc/valid-types": 1,
-
     "import/prefer-default-export": 0,
     "import/named": 2,
     "import/extensions": [1, { "js": "always" }]

@@ -1,55 +1,48 @@
-# Project Name
+# Elementary Calculator
 
-<!-- describe your project -->
+This document outlines the strategy for developing the **Elementary Calculator**,
+focusing on practicing DOM manipulation with JavaScript.
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new repository for the calculator project
+- Protect the `main` branch
+- Enable GitHub Pages for hosting
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+### Calculator Structure
 
-## user story
+This feature will be developed in the `calculator-structure` branch.
 
-<!-- each issue created from this section will have the `for: user story` label -->
+#### JavaScript for dynamic elements
 
-> "as a ... i can ... so that ..."
+- Dynamically create all the calculator elements using JavaScript:
+  - A display area for showing input and results
+  - Buttons for digits (`0-9`)
+  - Buttons for operations (`+`, `-`, `*`, `/`)
+  - A clear (`C`) button
+  - An equals (`=`) button
 
-<!-- write any extra notes or description -->
+#### CSS
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- Basic styling for layout and readability
+- Make sure the calculator is responsive for mobile and desktop use
 
-### Logic: user story
+---
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Calculator Logic
 
-### Interface: user story
+This feature will be developed in the `calculator-logic` branch.
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### JavaScript for logic
 
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add click event listeners to the buttons
+- Use the `eval()` function to perform calculations
+- Display results dynamically in the calculator display
+- Implement basic error handling for invalid operations (e.g., division by zero)
+- Clear the display when the `C` button is pressed
+- Handle chaining operations (e.g., `2 + 3 * 4`)
+- Prevent multiple consecutive operators from being entered
