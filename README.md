@@ -81,7 +81,7 @@ if (btnValue === '=') {
 
 ## Status
 
-Project is: _in progress_
+Project is: done
 
 ## Inspiration
 

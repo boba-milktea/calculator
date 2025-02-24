@@ -4,7 +4,7 @@ const keyboard = document.getElementById('keyboard');
 // create the keyboard elements
 const keyboardEle = [
     ['7', '8', '9', '+'],
-    ['4', '5', '6', '-'],
+    ['4', '5', '6', '−'],
     ['1', '2', '3', 'x'],
     ['C', '0', '=', '÷']
 ];
@@ -26,8 +26,16 @@ keyboardEle.forEach((row) => {
         keyBtn.classList.add('keyboard-key');
         btnFront.classList.add('keyboard-key-front');
 
+        // add a class to operator keys
+        key === '='
+            ? btnFront.classList.add('equal')
+            : key === 'C'
+            ? btnFront.classList.add('clear')
+            : key === '+' || key === '−' || key === 'x' || key === '÷'
+            ? btnFront.classList.add('operator')
+            : null;
+
         btnFront.addEventListener('click', () => {
-            // console.log(key);
             handleClick(key);
         });
     });
@@ -43,6 +51,7 @@ function handleClick(btnValue) {
         result = btnValue;
     } else if (resultIsDisplayed) {
         result = btnValue;
+        // clear the display after the result is delivered
         resultIsDisplayed = !resultIsDisplayed;
     } else {
         // otherwse, concantenate the value
